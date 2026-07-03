@@ -8,3 +8,21 @@ Press CTRL+C to quit
  * Debugger PIN: 111-356-748
 127.0.0.1 - - [02/Jul/2026 22:46:40] "GET / HTTP/1.1" 200 -
 127.0.0.1 - - [02/Jul/2026 22:46:44] "GET /Python HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:47:52] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:47:52] "GET /static/js/jquery-1.10.2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:47:52] "GET /static/js/typeahead.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:47:52] "GET /static/stylesheets/screen.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:47:52] "GET /static/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:34] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:34] "GET /static/stylesheets/screen.css HTTP/1.1" 304 -
+127.0.0.1 - - [02/Jul/2026 22:48:34] "GET /static/js/jquery-1.10.2.min.js HTTP/1.1" 304 -
+127.0.0.1 - - [02/Jul/2026 22:48:34] "GET /static/js/typeahead.js HTTP/1.1" 304 -
+127.0.0.1 - - [02/Jul/2026 22:48:34] "GET /static/stylesheets/screen.css HTTP/1.1" 304 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /static/stylesheets/screen.css HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /static/js/jquery-1.10.2.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /static/js/typeahead.js HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /static/favicon.ico HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /opensearch HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /search?q={searchTerms} HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:48:43] "GET /static/favicon.ico HTTP/1.1" 304 -
