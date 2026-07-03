@@ -44,7 +44,7 @@ class Document(object):
         """
         Read the contents of a document.
         """
-        with open(self.title, 'rU') as f:
+        with open(self.title, 'r') as f:
             return f.read()
 
     @property
@@ -75,12 +75,12 @@ class Document(object):
         """
         parts = []
         try:
-            with open(INDEX, 'rU') as index:
+            with open(INDEX, 'r') as index:
                 parts.append(index.read())
         except IOError:
             pass
         try:
-            with open(DIRECTIVES, 'rU') as directives:
+            with open(DIRECTIVES, 'r') as directives:
                 parts.append(directives.read())
         except IOError:
             pass
@@ -90,7 +90,7 @@ class Document(object):
 
     def gen_elements(self):
         line_buffer = []
-        with open(self.title, 'rU') as f:
+        with open(self.title, 'r') as f:
             for line in f:
                 if line.strip():
                     line_buffer.append(line.rstrip())

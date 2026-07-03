@@ -1,0 +1,6 @@
+F:\CLAUDEUSAGE\app\backlinks.py:44: DeprecationWarning: The frontend.OptionParser class will be replaced by a subclass of argparse.ArgumentParser in Docutils 2.0 or later.
+  To get default settings, use frontend.get_default_settings().
+  settings = docutils.frontend.OptionParser(components=components).get_default_values()
+F:\CLAUDEUSAGE\app\backlinks.py:44: DeprecationWarning: The frontend.OptionParser class will be replaced by a subclass of argparse.ArgumentParser in Docutils 2.0 or later.
+  To get default settings, use frontend.get_default_settings().
+  settings = docutils.frontend.OptionParser(components=components).get_default_values()
