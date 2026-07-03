@@ -6,3 +6,5 @@ Press CTRL+C to quit
  * Restarting with stat
  * Debugger is active!
  * Debugger PIN: 111-356-748
+127.0.0.1 - - [02/Jul/2026 22:46:40] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [02/Jul/2026 22:46:44] "GET /Python HTTP/1.1" 200 -
